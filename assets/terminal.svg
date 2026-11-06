@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420">
+  <defs>
+    <linearGradient id="tb" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b1020"/>
+      <stop offset="100%" stop-color="#141a33"/>
+    </linearGradient>
+    <style>
+      .t  { font: 500 17px 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; fill: #cbd5e1; }
+      .p  { fill: #5eead4; font-weight: 700; }
+      .c  { fill: #f8fafc; }
+      .o  { fill: #94a3b8; }
+      .k  { fill: #a78bfa; }
+      .b  { fill: #60a5fa; }
+      .y  { fill: #fbbf24; }
+      .ttl{ font: 600 13px 'Segoe UI', Inter, -apple-system, Helvetica, Arial, sans-serif; fill: #64748b; }
+      .l  { animation: show 0.4s ease-out both; }
+      .l1{animation-delay:.2s}.l2{animation-delay:.7s}.l3{animation-delay:1.3s}.l4{animation-delay:1.8s}
+      .l5{animation-delay:2.4s}.l6{animation-delay:2.9s}.l7{animation-delay:3.5s}.l8{animation-delay:4.0s}
+      .l9{animation-delay:4.6s}.l10{animation-delay:5.1s}.l11{animation-delay:5.6s}
+      @keyframes show { from { opacity: 0; } to { opacity: 1; } }
+      .cur { animation: blink 1s steps(1) infinite; }
+      @keyframes blink { 50% { opacity: 0; } }
+    </style>
+  </defs>
+  <rect width="1200" height="420" rx="16" fill="url(#tb)"/>
+  <rect width="1200" height="44" rx="16" fill="#ffffff" fill-opacity="0.04"/>
+  <rect y="28" width="1200" height="16" fill="#ffffff" fill-opacity="0.04"/>
+  <circle cx="28" cy="22" r="7" fill="#ff5f57"/><circle cx="52" cy="22" r="7" fill="#febc2e"/><circle cx="76" cy="22" r="7" fill="#28c840"/>
+  <text x="600" y="27" text-anchor="middle" class="ttl">santosh@dallas: ~</text>
+
+  <g class="t">
+    <text x="36" y="86"  class="l l1"><tspan class="p">❯</tspan> <tspan class="c">whoami</tspan></text>
+    <text x="36" y="114" class="l l2 o">Software engineer by day. Builder by night. Ships agents that do real work.</text>
+
+    <text x="36" y="154" class="l l3"><tspan class="p">❯</tspan> <tspan class="c">cat principles.txt</tspan></text>
+    <text x="36" y="182" class="l l4"><tspan class="k">01</tspan> <tspan class="o">LLMs explore, code executes   →  record once, replay deterministically</tspan></text>
+    <text x="36" y="208" class="l l5"><tspan class="k">02</tspan> <tspan class="o">Never invent                   →  AI output must be backed by real data</tspan></text>
+    <text x="36" y="234" class="l l6"><tspan class="k">03</tspan> <tspan class="o">Approve before write           →  humans sign off, systems re-check</tspan></text>
+
+    <text x="36" y="274" class="l l7"><tspan class="p">❯</tspan> <tspan class="c">ls ~/side-quests</tspan></text>
+    <text x="36" y="302" class="l l8"><tspan class="b">rejekt-ai/</tspan>   <tspan class="b">angel-trader/</tspan></text>
+
+    <text x="36" y="342" class="l l9"><tspan class="p">❯</tspan> <tspan class="c">git status</tspan></text>
+    <text x="36" y="370" class="l l10"><tspan class="y">On branch</tspan> <tspan class="c">open-to-work</tspan><tspan class="o"> · ready to ship with your team in 2 weeks</tspan></text>
+    <text x="36" y="398" class="l l11"><tspan class="p">❯</tspan> <tspan class="cur" fill="#5eead4">▍</tspan></text>
+  </g>
+</svg>
